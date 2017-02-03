@@ -20,8 +20,8 @@ def test_np_div():
 	assert division(two,eight) == 0.25
 
 def test_input():
-	with open('input.txt', 'r') as f:
-		assert len(f.read()) == 7
+	with open('input.txt', 'rb') as f:
+		assert len(f.read().decode('utf-8')) == 7
 
 def test_KNN():
 	iris = load_iris()
