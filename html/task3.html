@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Task 3 &#8212; task3 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="task3 1.0 documentation" href="index.html" />
+    <link rel="next" title="Task 4" href="task4.html" />
+    <link rel="prev" title="Welcome to Homework1’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="task-3">
+<h1>Task 3<a class="headerlink" href="#task-3" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><p>The MSD function takes numpy array and axis to calculate the mean and the standard deviation.</p>
+<p>The mean and standard deviation equations are as follow:</p>
+</div></blockquote>
+<div class="math">
+<p><img src="_images/math/99faf287216eab2aca0a202a29e790f2cd2f7f0a.png" alt="\bar{x}=\frac{\sum{x}}{N}
+
+\sigma=\sqrt{\frac{1}{N}\sum{(x_i-\mu)^2}}"/></p>
+</div><p>where N is the number of x.</p>
+<span class="target" id="module-task3"></span><dl class="function">
+<dt id="task3.MSD">
+<code class="descclassname">task3.</code><code class="descname">MSD</code><span class="sig-paren">(</span><em>nparr</em>, <em>ax=0</em><span class="sig-paren">)</span><a class="headerlink" href="#task3.MSD" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate mean and standard deviation of numpy array by axis</p>
+<ul>
+<li><dl class="first docutils">
+<dt><strong>Parameters</strong>::</dt>
+<dd><dl class="first last docutils">
+<dt>nparr</dt>
+ <span class="classifier-delimiter">:</span> <span class="classifier">array_like</span><dd><p class="first last">Array containing numbers</p>
+</dd>
+<dt>ax</dt>
+ <span class="classifier-delimiter">:</span> <span class="classifier">int, optional (default=0)</span><dd><p class="first last">Axis along which means and standard deviations are computed.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</li>
+</ul>
+<ul>
+<li><dl class="first docutils">
+<dt><strong>Returns</strong>::</dt>
+<dd><dl class="first last docutils">
+<dt>m,std</dt>
+ <span class="classifier-delimiter">:</span> <span class="classifier">tuple</span><dd><p class="first last">tuple of mean and standard deviation of the input array in terms of the axis.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</li>
+</ul>
+<ul>
+<li><dl class="first docutils">
+<dt><strong>Raises</strong>::</dt>
+<dd><dl class="first last docutils">
+<dt>ValueError</dt>
+<dd><p class="first last">if the given axis is not None or not 0 or 1.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</li>
+</ul>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to Homework1&#8217;s documentation!</a></li>
+      <li>Next: <a href="task4.html" title="next chapter">Task 4</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/task3.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, 1.0.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="_sources/task3.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
