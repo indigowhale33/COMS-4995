@@ -36,8 +36,4 @@ def MSD(nparr, ax=0):
 
 	return np.mean(nparr,axis=ax), np.std(nparr,axis=ax)
 
-a = MSD(np.array([[1,2],[3,4]]))
-print(a)
-print(MSD(np.array([[1,2],[3,4]]),1))
-print(MSD(np.array([[1,2],[3,4]]),None))
-print(MSD(np.array([1,2,3,4])))
+MSD(np.array([[1,2],[3,4]]))
