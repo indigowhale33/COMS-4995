@@ -49,7 +49,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'task3'
+project = 'Homework 1'
 copyright = '2017, 1.0'
 author = '1.0'
 
@@ -234,7 +234,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'task3doc'
+htmlhelp_basename = 'homework1doc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -260,7 +260,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'task3.tex', 'task3 Documentation',
+    (master_doc, 'homework1.tex', 'homework1 Documentation',
      '1.0', 'manual'),
 ]
 
@@ -302,7 +302,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'task3', 'task3 Documentation',
+    (master_doc, 'homework1', 'homework1 Documentation',
      [author], 1)
 ]
 
@@ -317,8 +317,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'task3', 'task3 Documentation',
-     author, 'task3', 'One line description of project.',
+    (master_doc, 'homework1', 'homework1 Documentation',
+     author, 'thomework1', 'One line description of project.',
      'Miscellaneous'),
 ]
 
