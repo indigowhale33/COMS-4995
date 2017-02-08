@@ -7,12 +7,14 @@ def scatter_matrix(data):
 
 	Parameters
 	----------
-	data : object
+	- **Parameters**::
+		data : object
 			iris dataset object
 
 	Returns
 	-------
-	fig : matplotlib figure
+	- **Returns**::
+		fig : matplotlib figure
 		
 	"""
 
